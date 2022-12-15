@@ -7,7 +7,7 @@ const AboutUs = () => {
       ref={about}
       className="container mx-auto flexible lg:flex-row flex-col lg:pt-[100px] pt-[50px] justify-between lg:items-start"
     >
-      <div className="md:max-w-[60%] lg:my-[70px]  max-sm:px-3 flexible flex-col gap-5 lg:items-start items-center lg:text-start text-center">
+      <div className="lg:max-w-[60%] lg:my-[70px]  max-lg:px-5 flexible flex-col gap-5 lg:items-start items-center lg:text-start text-center">
         <h4 className="red-text">About Us</h4>
         <h2 className="main-heading text-[#16213E]">
           With our work <br /> we guarante success
