@@ -21,7 +21,19 @@ const AboutUs = () => {
           installation, home construction, fire alarm sensors and much more –
           delivered by experienced industry leaders. We take the time to
           understand each of our client’s needs to ensure that they receive the
-          best possible services for their premises.
+          best possible services for their premises. 2:53 Raghav Capt Raghavan,
+          with 34 years of experience in commercial business, including 12 years
+          in the Healthcare industry, is venturing into Raghav Buildtech. In
+          addition to extensive Pan India exposure to Radiology and Pathology,
+          the founder has also successfully established himself as CEO of
+          Magnolia Community Health Pvt Ltd He has generated company growth as a
+          business leader with experience in Project and management, Healthcare
+          Services, medical device maintenance, P&L management, sales,
+          marketing, and business development Along with core academic
+          credentials of M.Tech from IIT Kharagpur and BTech from NIT Warangal,
+          he also holds a professional postgraduate level diploma course in
+          Business Management and certifications in Defense Management and
+          Industrial Project Management.
         </p>
       </div>
       <div className="overfllow-visible max-md:pl-[60px]">
