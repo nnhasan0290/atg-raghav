@@ -15,22 +15,19 @@ const TeamInfo = () => {
             CEO OF RAGHAV BUILDTECH
           </h5>
           <p>
-            {/* Capt Raghavan, with 34 years of experience in commercial business,
+            Capt Raghavan, with 34 years of experience in commercial business,
             including 12 years in the Healthcare industry, is venturing into
-            Raghav Buildtech. He has core academic credentials of M.Tech from
-            IIT Kharagpur and BTech from NIT Warangal, he also holds a
-            professional postgraduate level diploma course in Business
-            Management and certifications in Defense Management and Industrial
-            Project Management. */}
-            Raghav BuildTech is an on-demand home service platform based in
-            Bangalore. It provides a platform that allows skilled and
-            experienced professionals to connect with users looking for specific
-            services. The platform helps customers book reliable & high-quality
-            services - electrical, plumbing, tile settlers, home cleaning,
-            painting, CCTV installation, home construction, fire alarm sensors
-            and much more – delivered by experienced industry leaders. We take
-            the time to understand each of our client’s needs to ensure that
-            they receive the best possible services for their premises.
+            Raghav Buildtech. In addition to extensive Pan India exposure to
+            Radiology and Pathology, the founder has also successfully
+            established himself as CEO of Magnolia Community Health Pvt Ltd He
+            has generated company growth as a business leader with experience in
+            Project and management, Healthcare Services, medical device
+            maintenance, P&L management, sales, marketing, and business
+            development Along with core academic credentials of M.Tech from IIT
+            Kharagpur and BTech from NIT Warangal, he also holds a professional
+            postgraduate level diploma course in Business Management and
+            certifications in Defense Management and Industrial Project
+            Management.
           </p>
         </div>
       </div>
