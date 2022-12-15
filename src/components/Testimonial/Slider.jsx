@@ -24,19 +24,24 @@ const Tcarousel = () => {
       showThumbs={false}
       showStatus={false}
       showArrows={false}
-      className="w-[646px]"
+      className="max-w-[646px] w-[58%]"
     >
       {items.map((slide, i) => (
-        <div key={i} className="w-[646px] flexible flex-col items-start gap-5">
-          <div className="bg-[#16213E] text-white p-3 w-[80px] h-[80px] flexible">
+        <div
+          key={i}
+          className="flex-col items-start gap-3 md:gap-5 max-sm:pt-2 flexible"
+        >
+          <div className="bg-[#16213E] text-white p-3 md:w-[80px] md:h-[80px] w-[32px] h-[32px] flexible">
             <FaQuoteRight className="w-[32px] h-[32px]" />
           </div>
           <p className="text-start">{slide.description}</p>
           <div className="text-[#16213E]">
-            <h5 className="text-[22px] leading-[26px] font-[500] text-start">
+            <h5 className="md:text-[22px] md:leading-[26px] text-[14px] leading-[18px] font-[500] text-start">
               {slide.name}
             </h5>
-            <p className="text-[14px] leading-[15px]">{slide.city}</p>
+            <p className="md:text-[14px] md:leading-[15px] text-[10px] leading-[12px]">
+              {slide.city}
+            </p>
           </div>
         </div>
       ))}

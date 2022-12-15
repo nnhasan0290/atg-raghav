@@ -46,7 +46,7 @@ const Form = () => {
     <form
       onSubmit={handleSubmit(onSubmit)}
       action=""
-      className="container flex flex-wrap mx-auto my-[100px]"
+      className="container flex flex-wrap mx-auto lg:my-[100px] my-[30px]"
     >
       <div className="relative p-3 basis-1/2 ">
         <input
@@ -96,7 +96,7 @@ const Form = () => {
         <textarea
           {...register("message")}
           type="textarea"
-          className="input-common-class h-[153px]"
+          className="input-common-class lg:h-[153px] h-[100px]"
           id="exampleFormControlInput1"
           placeholder="Enter your message here... "
           name="message"
@@ -104,9 +104,9 @@ const Form = () => {
         />
       </div>
       <div className="p-3">
-        <button className="bg-[#D2153D] w-[240px] h-[64px] text-white flexible leading-[24px] text-[20px]">
+        <button className="bg-[#D2153D] max-sm:px-4 lg:w-[240px] lg:h-[64px] h-[28px] text-white flexible leading-[24px] lg:text-[20px] text-[12px] max-sm:leading-[16px] rounded-[4px]">
           Submit Message{" "}
-          <span>
+          <span className="hidden lg:block">
             <FaArrowRight size={15} />
           </span>
         </button>

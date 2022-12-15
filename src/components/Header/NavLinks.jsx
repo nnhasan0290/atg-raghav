@@ -1,12 +1,13 @@
 import { GlobalRefStates } from "../../Context";
 
-const NavLinks = () => {
+const NavLinks = ({ setShowCanvas }) => {
   const { service, about, contact, testimonial } = GlobalRefStates();
   return (
     <>
       <div
         onClick={() => {
           service.current.scrollIntoView({ behavior: "smooth" });
+          setShowCanvas(false);
         }}
         className="cursor-pointer"
       >
@@ -15,6 +16,7 @@ const NavLinks = () => {
       <div
         onClick={() => {
           about.current.scrollIntoView({ behavior: "smooth" });
+          setShowCanvas(false);
         }}
         className="cursor-pointer"
       >
@@ -23,6 +25,7 @@ const NavLinks = () => {
       <div
         onClick={() => {
           testimonial.current.scrollIntoView({ behavior: "smooth" });
+          setShowCanvas(false);
         }}
         className="cursor-pointer"
       >
@@ -31,6 +34,7 @@ const NavLinks = () => {
       <div
         onClick={() => {
           contact.current.scrollIntoView({ behavior: "smooth" });
+          setShowCanvas(false);
         }}
         className="cursor-pointer"
       >

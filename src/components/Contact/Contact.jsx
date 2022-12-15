@@ -7,30 +7,28 @@ const Contact = () => {
   const { contact } = GlobalRefStates();
   const [showForm, setShowForm] = useState(false);
   return (
-    <div ref={contact} className="pt-[100px] ">
-      <div  className="flexible contact-form">
-        <div className="container mx-auto flexible">
-          <h2 className="main-heading">
+    <div ref={contact} className="lg:pt-[100px] pt-[40px]">
+      <div className="flexible contact-form">
+        <div className="container mx-auto flexible max-sm:px-5">
+          <h2 className="main-heading max-lg:text-[16px] max-lg:leading-[24px]">
             Are you looking for Construction & Industrial experts ?
           </h2>
           <div>
             <button
-              className="bg-[#D2153D] w-[240px] h-[64px] text-white flexible leading-[24px] text-[20px]"
+              className="bg-[#D2153D] lg:w-[240px] rounded-[4px] lg:h-[64px] h-[28px] w-[80px] text-white flexible lg:leading-[24px] leading-[140%] lg:text-[20px] text-[12px]"
               onClick={() => {
                 setShowForm(!showForm);
               }}
             >
               Contact Us{" "}
-              <span>
+              <span className="hidden lg:block">
                 <FaArrowRight size={15} />
               </span>
             </button>
           </div>
         </div>
       </div>
-      {showForm &&(
-           <Form />
-      )}
+      {showForm && <Form />}
     </div>
   );
 };

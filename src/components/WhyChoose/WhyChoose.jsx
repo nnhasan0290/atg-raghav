@@ -1,8 +1,12 @@
 const WhyChoose = () => {
   return (
-    <div className="container justify-between items-stretch mx-auto mt-[100px] flexible">
-      <img src="/imgs/choose.png" alt="" />
-      <div className="w-[517px] flexible flex-col justify-around  self-full">
+    <div className="container max-sm:px-5 lg:justify-between lg:items-stretch items-center mx-auto lg:mt-[100px] mt-[50px] flexible flex-col gap-3 lg:gap-0 lg:flex-row  justify-center">
+      <img
+        src="/imgs/choose.png"
+        alt=""
+        className="lg:h-auto lg:w-auto h-[318px] w-[250px] rounded-md"
+      />
+      <div className="lg:w-[517px] w-auto text-center lg:text-start flexible flex-col justify-around  self-full">
         <h2 className="main-heading">Why choose Raghav Buildtech?</h2>
         <p className="">
           Run by experienced industry leaders with credibility on faster
