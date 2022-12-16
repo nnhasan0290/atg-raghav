@@ -14,7 +14,7 @@ module.exports = {
         },
       },
       animation: {
-        translate: "translate .3s ease-in-out",
+        translate: "translate .1s ease-in-out",
         tnsFromRight: "tnsFromRight 0.5s ease-in-out",
       },
     },

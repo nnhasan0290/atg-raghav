@@ -13,7 +13,7 @@ const RedModal = () => {
   return (
     <>
       {showModal && (
-        <div className="fixed z-30 top-0 left-0 bottom-0 overflow-auto lg:pt-[170px] pt-[145px] w-full h-[120vh] flexible items-start animate-translate">
+        <div className="fixed z-30 top-0 left-0 bottom-0 overflow-auto lg:pt-[170px] pt-[145px] w-full h-full flexible items-start animate-translate">
           <div className="container flexible bg-[#E33F61] text-white justify-between lg:p-[100px] p-[24px] lg:h-[582px] h-[192px] max-md:mx-5 rounded-2xl relative">
             <button
               className="absolute lg:top-[50px] lg:right-[50px] top-[19px] right-[27.5px]"
