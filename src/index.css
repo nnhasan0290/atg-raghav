@@ -78,7 +78,6 @@ img {
 }
 
 .hide-scrollbar {
-  height: 150px;
   overflow: scroll;
   -ms-overflow-style: none;
   /* for Internet Explorer, Edge */
