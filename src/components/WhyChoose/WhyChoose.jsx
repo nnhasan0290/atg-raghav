@@ -1,6 +1,6 @@
 const WhyChoose = () => {
   return (
-    <div className="container max-sm:px-5 lg:justify-center lg:gap-[154px] lg:items-stretch items-center mx-auto lg:mt-[100px] mt-[50px] flexible flex-col gap-3 lg:gap-0 lg:flex-row  justify-center">
+    <div className="container max-sm:px-5 lg:justify-center lg:gap-[154px] lg:items-stretch items-center mx-auto lg:mt-[100px] mt-[50px] flexible flex-col gap-3 lg:flex-row  justify-center">
       <img
         src="/imgs/choose.png"
         alt=""
@@ -8,7 +8,7 @@ const WhyChoose = () => {
       />
       <div className="lg:w-[517px] w-auto text-center lg:text-start flexible flex-col justify-around  self-full">
         <h2 className="main-heading">Why choose Raghav Buildtech?</h2>
-        <p className="lato-font text-black">
+        <p className="text-black lato-font">
           Run by experienced industry leaders with credibility on faster
           turnaround, transparent design and highly reliable. Turnkey solution
           for construction of new projects, repairs to renovations of old
