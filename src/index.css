@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
 
 body {
   margin: 0;
@@ -16,6 +17,10 @@ body {
   font-size: 17px;
   line-height: 28px;
   scroll-behavior: smooth;
+}
+
+.lato-font {
+  font-family: "Lato", sans-serif;
 }
 
 .second-small-font {
@@ -99,6 +104,12 @@ img {
   }
   .contact-form {
     height: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-content {
+    flex-basis: 60% !important;
   }
 }
 

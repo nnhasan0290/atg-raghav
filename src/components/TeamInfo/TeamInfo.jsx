@@ -3,18 +3,18 @@ const TeamInfo = () => {
     <div className="flex-col lg:mt-[100px] mt-[50px] max-sm:gap-3 max-sm:px-5 max-lg:text-center flexible">
       <h5 className="red-text">Team</h5>
       <h2 className="main-heading text-[#16213E]">Team Information</h2>
-      <div className=" lg:items-stretch items-center lg:my-[60px] w-full flexible lg:gap-[50px] gap-5 lg:flex-row flex-col">
+      <div className="container lg:items-start items-center lg:my-[60px] lg:mt-[111px] w-full flexible lg:gap-[78px] gap-5 lg:flex-row flex-col">
         <img
           src="/imgs/team.png"
           alt=""
           className="h-[250px] w-[220px] rounded-md lg:h-auto lg:w-auto object-cover"
         />
-        <div className="max-w-[608px] w-auto flexible flex-col justify-around lg:items-start items-center">
+        <div className="max-w-[608px] w-auto flexible flex-col lg:gap-[22px] gap-[10px] lg:items-start items-center">
           <h2 className="main-heading text-[#16213E]">Capt. N. Raghavan</h2>
-          <h5 className="red-text text-[12px] leading-[18px]">
-            CEO OF RAGHAV BUILDTECH
+          <h5 className="red-text max-sm:text-[12px] max-sm:leading-[18px]">
+            Founder & CEO OF RAGHAV BUILDTECH
           </h5>
-          <p>
+          <p className="lato-font">
             Capt Raghavan, with 34 years of experience in commercial business,
             including 12 years in the Healthcare industry, is venturing into
             Raghav Buildtech. In addition to extensive Pan India exposure to

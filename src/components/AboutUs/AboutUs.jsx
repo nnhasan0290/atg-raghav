@@ -5,14 +5,14 @@ const AboutUs = () => {
   return (
     <div
       ref={about}
-      className="container mx-auto flexible lg:flex-row flex-col lg:pt-[100px] pt-[50px] justify-between lg:items-start"
+      className="container mx-auto flexible lg:flex-row flex-col lg:pt-[100px] pt-[50px] gap-0 justify-between lg:items-start"
     >
-      <div className="lg:max-w-[60%] lg:my-[70px]  max-lg:px-5 flexible flex-col gap-5 lg:items-start items-center lg:text-start text-center">
+      <div className="lg:basis-[508px] lg:mr-[56px] about-us-content lg:my-[70px] flexible flex-col gap-5 lg:items-start items-center lg:text-start text-center">
         <h4 className="red-text">About Us</h4>
         <h2 className="main-heading text-[#16213E]">
           With our work <br /> we guarante success
         </h2>
-        <p className="max-xl:pr-[70px] max-lg:pr-0 max-sm:py-3">
+        <p className=" max-sm:py-3 max-lg:px-5 lato-font">
           Raghav BuildTech is an on-demand home service platform based in
           Bangalore. It provides a platform that allows skilled and experienced
           professionals to connect with users looking for specific services. The
@@ -36,14 +36,14 @@ const AboutUs = () => {
           Industrial Project Management.
         </p>
       </div>
-      <div className="overfllow-visible max-md:pl-[60px]">
-        <div className="relative overflow-visible text-center lg:mb-[200px] mb-[100px]">
+      <div className="overfllow-visible max-md:pl-[60px] mr-[15px] lg:basis-[480px] max-lg: mt-[10px]">
+        <div className="relative overflow-visible text-center lg:mb-[200px] mb-[100px] w-full  flex justify-end">
           <img
             src="/imgs/about.png"
-            className="h-[170px] w-[170px] lg:h-auto lg:w-auto rounded-md"
+            className="h-[170px] w-[170px] lg:h-[357px] lg:w-[350px] rounded-md"
             alt=""
           />
-          <div className="absolute top-[55%] left-0 translate-x-[-45%]">
+          <div className="absolute top-[55%] left-0 max-lg:translate-x-[-50%]">
             <img
               src="/imgs/aboutus.png"
               alt=""

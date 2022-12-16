@@ -61,7 +61,9 @@ const Footer = () => {
                 #173, Ragini, 2A Main Road, Block 7, Nagarabhavi 2nd Stage,
                 Bangalore - 560072
               </p>
-              <p className="text-18 text-[#D4D7DD]">ragainn@gmail.com</p>
+              <p className="text-[14px] lg:text-[18px] text-[#D4D7DD]">
+                ragainn@gmail.com
+              </p>
             </div>
           </div>
           <div className="lg:text-[16px] text-[12px] text-center lg:text-start container mx-auto leading-[14px] lg:leading-[25.6px] footer-bottom mt-[20px] lg:mt-[50px]">
