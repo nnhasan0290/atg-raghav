@@ -24,7 +24,7 @@ const TeamInfo = () => {
               business, including 12 years in the Healthcare industry, is
               venturing into Raghav Buildtech. In addition to extensive Pan
               India exposure to Radiology and Pathology, the founder has also
-              successfully established himself as FOUNDER & CEO of Magnolia
+              successfully established himself as founder & ceo of Magnolia
               Community Health Pvt Ltd.
             </span>
             <span>
