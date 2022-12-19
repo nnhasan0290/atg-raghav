@@ -15,7 +15,7 @@ const TeamInfo = () => {
           <div className="flex flex-col lg:gap-[22px] gap-[10px]">
             <h2 className="main-heading text-[#16213E]">Capt. N. Raghavan</h2>
             <h5 className="red-text max-sm:text-[12px] max-sm:leading-[18px]">
-              Founder & CEO OF RAGHAV BUILDTECH
+              Founder & CEO
             </h5>
           </div>
           <p className="flex flex-col lg:gap-[28px] gap-[15px] lato-font">

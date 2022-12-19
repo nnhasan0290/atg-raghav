@@ -9,9 +9,9 @@ const Contact = () => {
   return (
     <div ref={contact} className="lg:pt-[100px] pt-[40px]">
       <div className="flexible contact-form">
-        <div className="container mx-auto flexible max-sm:px-5">
-          <h2 className="main-heading max-lg:text-[16px] max-lg:leading-[24px]">
-            Are you looking for Construction & Industrial experts ?
+        <div className="container mx-auto flexible max-sm:px-5 lg:gap-[205px]">
+          <h2 className="main-heading max-lg:text-[16px] max-lg:leading-[24px] text-[#00215B]">
+          Are you looking for General Contractors & Industrial Experts?
           </h2>
           <div>
             <button
