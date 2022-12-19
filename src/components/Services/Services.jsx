@@ -26,9 +26,11 @@ const Services = () => {
       ref={service}
       className="container flex-col gap-0 mx-auto flexible lg:pt-[100px] pt-[50px]"
     >
-      <h4 className="red-text">Our Works</h4>
-      <h2 className="main-heading text-[#16213E]">Services</h2>
-      <div className="flex justify-center lg:gap-[100px] max-lg:px-5 gap-[20px] mt-[2rem] lg:mb-[5rem] mb-[1rem] w-full mx-auto overflow-hidden flex-wrap">
+      <div className="flex flex-col items-center lg:gap-[10px] gap-[8px] ">
+        <h4 className="red-text">Our Works</h4>
+        <h2 className="main-heading text-[#16213E]">Services</h2>
+      </div>
+      <div className="flex justify-center lg:gap-[100px] max-lg:px-5 gap-[20px] mt-[2rem] lg:mb-[5rem] mb-[1rem] w-full mx-auto overflow-hidden flex-wrap items-start">
         {services?.slice(0, items).map((service, i) => (
           <SingleService key={i} details={service} />
         ))}

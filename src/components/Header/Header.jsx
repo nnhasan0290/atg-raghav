@@ -8,22 +8,19 @@ const Header = () => {
   return (
     <>
       {showCanvas && <OffCanvasMenu setShowCanvas={setShowCanvas} />}
-      <nav className="sticky top-0 z-20 bg-white ">
+      <nav className="sticky top-0 z-20 bg-white">
         <div className="container justify-between pt-4 pb-2 mx-auto flexible lg:h-[100px] h-[88px]  max-sm:px-5">
-          <div className="flexible">
+          <div className="flexible gap-[10px]">
             <img
               src="/head-logo.png"
               alt="logo"
-              className="h-[32px] w-[32px] lg:h-[62px] lg:w-[62px]"
+              className="h-[32px] w-[32px] lg:h-[63px] lg:w-[62px] "
             />
             <div>
-              <h2 className="nav-heading">Raghav BuildTech</h2>
-              <p className="text-black second-small-font">
-                Repairs to Rennovation
-              </p>
+              <h2 className="nav-heading lato-font">Raghav BuildTech</h2>
             </div>
           </div>
-          <div className="flexible  gap-[50px] second-small-font text-[#00215B] hidden lg:flex">
+          <div className="flexible  gap-[50px] second-small-font text-[#00215B] hidden lato-font lg:flex">
             <NavLinks />
           </div>
           <span
